@@ -1,13 +1,13 @@
 <?php
 
-namespace CitrusFramework;
+namespace Citrus\Framework;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\HttpCache\HttpCache;
 use Symfony\Component\HttpKernel\HttpCache\Store;
 
-use Citrus\Core\Events\EventServiceProvider;
+use Citrus\Core\Event\EventServiceProvider;
 use Citrus\Core\Routing\RoutingServiceProvider;
 use Citrus\Core\KernelServiceProvider;
 use Citrus\Core\App as CitrusApp;
