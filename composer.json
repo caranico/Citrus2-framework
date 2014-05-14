@@ -1,0 +1,36 @@
+{
+    "name": "citrus/framework",
+    "type": "library",
+    "description": "Citrus 2 framework-specific classes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rémi Cazalet",
+            "email": "remi@caramia.fr"
+        },
+        {
+            "name": "Nicolas Mouret",
+            "email": "nicolas@caramia.fr"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/studiocaramia/Citrus2-core"
+        }
+    ],
+    "require": {
+        "citrus/core": "2.0.*@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Citrus\\Framework\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
