@@ -5,7 +5,7 @@ namespace Citrus\Framework\Controller;
 use Symfony\Component\HttpFoundation\Request as SfRequest;
 use Symfony\Component\HttpFoundation\Response as SfResponse;
 
-class Controller implements ControllerInterface
+class Controller //implements ControllerInterface
 {
 
     protected $container;
